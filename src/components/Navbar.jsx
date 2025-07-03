@@ -13,7 +13,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="bg-black shadow-md fixed top-0 left-0 right-0 z-50 ">
+    <nav className="bg-current  shadow-md fixed top-0 left-0 right-0 z-50 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between">
         <div className="text-xl font-bold text-white">Asif Shaikh</div>
 
@@ -23,7 +23,7 @@ export default function Navbar() {
             <a
               key={item.name}
               href={item.href}
-              className="text-[#6276A5] hover:text-primary transition font-medium"
+              className="text-white hover:text-primary transition font-medium"
             >
               {item.name}
             </a>
