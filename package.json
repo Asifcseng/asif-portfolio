@@ -6,8 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist --git \"C:\\Program Files\\Git\\cmd\\git.exe\""
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
