@@ -2,7 +2,6 @@
   "name": "my-portfolio",
   "private": true,
   "version": "0.0.1",
-  "homepage": "https://Asifcseng.github.io/asif-portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
